@@ -1,1 +1,1 @@
-This is the official implementation of SPG:Style-Prompting Guidance for Style-Specific Content Creation
+This is the official implementation of"SPG:Style-Prompting Guidance for Style-Specific Content Creation".
