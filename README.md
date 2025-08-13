@@ -8,7 +8,7 @@
 <!-- <img src="./assets/results.jpg" alt="Tower Bridge" style="zoom: 100%;" /> -->
 <img src="./assets/result.jpg" style="zoom: 100%;" />
 
-**TL;DR:** A finetuning-based approach for style-specific text-to-image generation that ensures robust style consistency and aligns textual semantics.
+**TL;DR:** A training free methods for style-specific text2image creation.
 
 ### ⚙️ Getting Started 
 
