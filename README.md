@@ -18,7 +18,7 @@ This code was tested with Python 3.10, Pytorch 2.5 and Diffusers 0.32.
 ```
 ### Inference
 ```
-1. You can use the SPG.ipynb file to generate stylized images by combining CFG with SPG.
+1.You can use the SPG.ipynb file to generate stylized images by combining CFG with SPG.
 2.You can use the SPG+controlnet.ipynb file to add ControlNet constraints during the generation process.
 3.You can add IPAdapter constraints during the generation process using the SPG+IPAdapter.ipynb file in the IPAdapter folder.
 ```
