@@ -2,7 +2,7 @@
 
 <div align="center">
  <a href=''><img src='https://img.shields.io/badge/arXiv-2502.09064-b31b1b.svg'></a> &nbsp;&nbsp;
- <a href=''><img src='https://img.shields.io/badge/Project-Page-Green'></a>
+ <a href='https://rumbling281441.github.io/SPG/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
 </div>
 <br></br>
 <!-- <img src="./assets/results.jpg" alt="Tower Bridge" style="zoom: 100%;" /> -->
