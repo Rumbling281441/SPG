@@ -14,39 +14,12 @@
 
 #### Steup
 ```
-conda create -n styleblend python=3.10
-conda activate styleblend
-pip install -r requirements.txt
+This code was tested with Python 3.10, Pytorch 2.5 and Diffusers 0.32.
+```
+### Inference
+```
+1. You can use the SPG.ipynb file to generate stylized images by combining CFG with SPG.
+2.You can use the SPG+controlnet.ipynb file to add ControlNet constraints during the generation process.
+3.You can add IPAdapter constraints during the generation process using the SPG+IPAdapter.ipynb file in the IPAdapter folder.
 ```
 
-#### Configure Parameters
-* Specify the `configs/training_config_sd21.yaml` file to adjust training parameters as needed.
-* Specify the `configs/inference_config_sd21.yaml` file to adjust inference parameters.
-
-The `parameters.json` file provides additional parameters for example styles used during  inference. These parameters are configured in the `styleblend_sd.ipynb` inference script.
-
-### 🔥 Style Representation Learning
-Run `style_learning.ipynb` step by step to capture composition and texture styles.
-
-#### Train Your Own Style
-1. Organize your style images
-   1. Name your style and create a folder `./data/[YOUR_STYLE_NAME]`  to store the images.
-   2. Rename your style images. Use one or a few words to describe the content of each image, and name the style image in the format `[DESCRIPTION].png`. If there are multiple words, use underscores to replace spaces, for example `[DESC1_DESC2].png`.
-2. Run `style_learning.ipynb` step by step.
-
-### 💫 Inference
-Run `styleblend_sd.ipynb` step by step for inference.
-
-
-###  BibTex
-```
-@misc{chen2025styleblend,
-    title={StyleBlend: Enhancing Style-Specific Content Creation in Text-to-Image Diffusion Models}, 
-    author={Zichong Chen and Shijin Wang and Yang Zhou},
-    year={2025},
-    eprint={2502.09064},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV},
-    url={https://arxiv.org/abs/2502.09064}, 
-}
-```
